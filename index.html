@@ -321,11 +321,18 @@
           </button>
           <p class="modal-title">Leave your contacts and we will call you back</p>
           <form>
-            <label>Name
-            <input type="text" name="user-name" class="modal-input" required></label>
-            <input type="email" name="user-mail" class="modal-input">
-            <input type="tel" name="user-phone" class="modal-input" required>
-            <input type="text" name="user-comment" class="modal-input" placeholder="Text input">
+            <div class="modal-feild">
+            <label for="user-name" class="input-lable">Name</label>
+             <input type="text" name="user-name" class="modal-input" required id="user-name"></div>
+             <div class="modal-feild">
+             <label for="user-phone" class="input-lable">Phone</label>
+             <input type="tel" name="user-phone" class="modal-input" required id="user-phone"></div>
+             <div class="modal-feild">
+             <label for="user-mail" class="input-lable">Email</label>
+             <input type="email" name="user-mail" class="modal-input" id="user-mail"></div>
+             <div class="modal-feild">
+             <label for="user-comment" class="input-lable">Comment</label>
+            <input type="text" name="user-comment" class="modal-input" placeholder="Text input" id="comment"></div>
             <button type="submit">Send</button>
           </form>
     </div>

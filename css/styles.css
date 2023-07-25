@@ -715,7 +715,7 @@ margin-bottom: 16px;
     border: 1px solid #8E8F99;
 background:  #FCFCFC;
 margin-bottom: 26px;
-padding: 0 10px;
+padding: 0 11px 0 32px;
 outline: transparent;
 }
 .modal-input:focus {
@@ -726,4 +726,14 @@ color: var(--navyblue-modal, rgba(46, 47, 66, 0.40));
 font-size: 12px;
 line-height: 1.17; 
 letter-spacing: 0.04em;
+}
+.input-lable {
+display: inline-block;
+font-size: 12px;
+line-height: 1.17; 
+letter-spacing: 0.04em;
+color: #8E8F99;
+}
+.modal-feild {
+margin-bottom: 4px;
 }
