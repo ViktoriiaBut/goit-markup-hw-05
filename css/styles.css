@@ -761,5 +761,38 @@ font-size: 12px;
 line-height: 1.17; 
 letter-spacing: 0.04em;
 }
+.chek-text {
+font-size: 12px;
+letter-spacing: 0.04em;
+display: flex;
+align-items: baseline;
+}
+.privace-link {
+    color: var(--accent-color);
+}
+.chek-text span {
+    display: flex;
+    align-items: center;    
+    justify-content: center;
+    width: 16px;
+    height: 16px;
+    stroke-width: 1px;
+stroke: rgba(46, 47, 66, 0.40);
+margin-right: 8px;
+fill: transparent;
+}
+.checkmark-icon {
+    }
+
+.modal-check:checked + .chek-text span {
+background-color: var(--accent-color);
+border: none;
+fill: #F4F4FD;
+}
+.modal-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 
