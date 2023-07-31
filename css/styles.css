@@ -419,10 +419,6 @@ padding: 120px 0;
     display: flex;
     align-items: baseline;
 } 
-.footer-next {
-    display: inline-block;;
-    align-items: baseline; 
-}  
  .footer-container {
     margin-right: 120px;
     max-width: 264px;
@@ -493,9 +489,11 @@ padding: 120px 0;
 .footer-social:focus {
     background-color: #31d0aa;
     }
+
 .footer-next {
     display: flex;
     flex-direction: column;
+    margin-left: 80px;
         }
 .footer-form {
     display: flex;
@@ -513,6 +511,9 @@ line-height: 2;
 letter-spacing: 0.04em;
 margin-right: 24px;
     }
+.footer-input::placeholder {
+    color: #ffffff;
+  }    
 
 .footer-form-btn {
 color: #FFF;
