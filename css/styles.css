@@ -817,8 +817,7 @@ display: block;
 position: relative;
 margin-bottom: 8px;
 }
-.modal-input-icon,
-.checkmark-icon {
+.modal-input-icon {
     position: absolute;
     left: 16px;
     top: 50%;
@@ -833,9 +832,9 @@ margin-bottom: 8px;
 
 .input-wrap {
     position: relative;
-    margin-bottom: 24px;
+    margin-bottom: 24px; 
  }
-.modal-feild-textarea {
+ .modal-feild-textarea {
     margin-bottom: 16px;
 }         
 .modal-textarea {
@@ -941,8 +940,6 @@ background-color:#404bbf;
     width: 105px;
     border: none;
  }
-
-
 
 .form-button:focus + .modal-icon {
     fill: #ffffff;
