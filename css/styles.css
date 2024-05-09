@@ -714,9 +714,6 @@ position: fixed;
     visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-/*.backdrob.is-hidden .modal {
-    transform: translate(-50%, -50%) scale(0);
- }*/
 .modal {
 position: absolute;
     top: 50%;
@@ -760,12 +757,6 @@ position: absolute;
 .modal-butto:hover .modal-icon {
     fill: #ffffff;
   }
-   
-/*.is-hidden {
-    opacity: 0;
-    visibility: hidden;
-    pointer-events: none;
-}*/
 
 .modal-icon {
     fill: #2e2f42;
@@ -948,13 +939,14 @@ background-color:#404bbf;
     border-radius: 4px;
     border: none;
     background-color: #4d5ae5;
-    background: var(--accent-color);
+    background: #4d5ae5;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     padding: 16px 32px;
     width: 105px;
      }
 
-.form-button:focus + .modal-icon {
-    fill: #ffffff;
+.form-button:focus,
+.form-button:hover {
+       background: #404bbf;
 }
 
